@@ -1,0 +1,91 @@
+.chatbot {
+    
+   background-image: url(images/robot.png);
+   background-size: 100%;
+   border-color: blue;
+   box-shadow: 3px 5px 5px #1900f1,
+             -3px 3px 5px #0602f5;
+    width: 40px;
+    height: 5px;
+    border-radius: 100px;
+    padding: 24px;
+    position: fixed;
+    bottom: 30px;
+    left: 1220px;
+    
+    
+    
+}
+.chatbot:hover {
+    transform: scale(1.1);
+}
+
+.cuadrochatbot {
+    width: 300px;
+    height: 400px;
+    background-color:rgb(168, 0, 0);
+    display: none;
+    border-radius: 15px;
+    position: fixed;
+    bottom: 40px;
+    right: 50px;
+}
+
+.encabezado {
+    width: 85%;
+    height: 40px;
+    color: white;
+    background-color:  rgb(1, 29, 88);
+    text-align: center;
+    margin: 0%;
+    padding: 5px;
+    border-radius: 5px;
+    position: relative;
+
+}
+.botoncerrar {
+    width: 41px;
+    position: fixed;
+    top: 210px;
+    margin-left: 258px;
+}
+.btnEnviar {
+    width: 30px;
+    position: fixed;
+    top: 545px;
+    margin-left: 265px;
+
+}
+.btnEnviar:hover {
+    transform: scale(1.2);
+}
+.botoncerrar:hover {
+
+    transform: scale(1.2);
+}
+.escriturachat {
+    position: fixed;
+    top: 545px;
+    margin-left: 10px;
+    
+}
+.contenedorchat {
+    
+    width: 250px;
+    height: 310px;
+    position: fixed;
+    border-radius: 3px;
+    margin-left: 10px;
+    margin-top: 15px;
+ 
+background: #e0e0e0;
+box-shadow:  3px 3px 3px #cecece,
+             -3px -3px 3px #f2f2f2;
+}
+.mensajes {
+    
+    width: 254px;
+    height: 30px;
+    border-radius: 8px;
+}
+
