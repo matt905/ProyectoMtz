@@ -7,12 +7,25 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-
+.p{
+    position: relative;
+}
 html{
     scroll-behavior: smooth;
     
     
 }
+
+
+
+
+#particles-js {
+	width:100%;
+	height:100%;
+	position:fixed;
+	background:transparent;
+}
+
 
 link.icon{
     border-image: none;
@@ -368,21 +381,38 @@ section .title::after{
     width: 400px;
     object-fit: cover;
     border-radius: 6px;
+    position: relative;
 }
 .about .about-content .right{
     width: 55%;
+    position: relative;
 }
 .about .about-content .right .text{
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;
+    position: relative;
+    
 }
 .about .about-content .right .text span{
     color: rgb(133, 2, 9);
 }
 .about .about-content .right p{
     text-align: justify;
+    position: relative;
+    
 }
+.text-1{
+    position: relative;
+}
+.text-2{
+    position: relative;
+}
+.text-3{
+    position: relative;
+}
+
+
 .about .about-content .right a{
     display: inline-block;
     background: rgb(133, 2, 9);
@@ -394,6 +424,8 @@ section .title::after{
     border-radius: 6px;
     border: 2px solid rgb(192, 4, 13);
     transition: all 0.3s ease;
+    position: relative;
+    
 }
 .about .about-content .right a:hover{
     color: rgb(133, 2, 9);
@@ -404,16 +436,19 @@ section .title::after{
 .services, .teams{
     color:#fff;
     background: #111;
+    
 }
 .services .title::before,
 .teams .title::before{
     background: #fff;
+    position: relative;
    
 }
 .services .title::after,
 .teams .title::after{
     background: #111;
     content: "Proporciono";
+
   
 }
 .services .serv-content .card{
@@ -424,8 +459,12 @@ section .title::after{
     padding: 20px 20px;
     cursor: pointer;
     transition: all 0.3s ease;
+    position: relative;
+    
+    
     
 }
+
 .services .serv-content .card:hover{
     background: rgb(133, 2, 9);
 }
@@ -440,14 +479,17 @@ section .title::after{
     font-size: 70px;
     color: rgb(133, 2, 9);
     transition: color 0.3s ease;
+    position: relative;
 }
 .services .serv-content .card:hover i{
     color: #fff;
+    position: relative;
 }
 .services .serv-content .card .text{
     font-size: 25px;
     font-weight: 300;
     margin: 10px 0 7px 0;
+    position: relative;
    
 }
 
@@ -458,14 +500,17 @@ section .title::after{
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
+    position: relative;
 }
 .skills .skills-content .left .text{
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
+    position: relative;
 }
 .skills .skills-content .left p{
     text-align: justify;
+    position: relative;
 }
 .skills .skills-content .left a{
     display: inline-block;
@@ -482,26 +527,33 @@ section .title::after{
 .skills .skills-content .left a:hover{
     color: rgb(182, 1, 37);
     background: none;
+    position: relative;
 }
 .skills .skills-content .right .bars{
     margin-bottom: 15px;
+    position: relative;
 }
 .skills .skills-content .right .info{
     display: flex;
     margin-bottom: 5px;
     align-items: center;
     justify-content: space-between;
+
 }
 .skills .skills-content .right span{
     font-weight: 500;
     font-size: 18px;
+    position: relative;
+    
 }
 .skills .skills-content .right .line{
     height: 5px;
     width: 100%;
     background: lightgrey;
     position: relative;
+    
 }
+
 .skills .skills-content .right .line::before{
     content: "";
     position: absolute;
@@ -535,6 +587,7 @@ section .title::after{
     align-items: center;
     margin: 30px;
     padding: 30px;
+    position: relative;
 }
 .teams .carousel .card{
     background: #222;
@@ -543,6 +596,7 @@ section .title::after{
     text-align: center;
     overflow: hidden;
     transition: all 0.3s ease;
+    position: relative;
 }
 .teams .carousel .card:hover{
     background: rgb(187, 0, 37);
@@ -553,14 +607,17 @@ section .title::after{
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
+    position: relative;
 }
 .teams .carousel .card:hover .box{
     transform: scale(1.05);
+    position: relative;
 }
 .teams .carousel .card .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
+    position: relative;
 }
 .teams .carousel .card img{
     height: 150px;
@@ -569,6 +626,7 @@ section .title::after{
     border-radius: 50%;
     border: 5px solid rgb(133, 2, 9);
     transition: all 0.3s ease;
+    position: relative;
 }
 .teams .carousel .card:hover img{
     border-color: #fff;
@@ -576,6 +634,7 @@ section .title::after{
 .owl-dots{
     text-align: center;
     margin-top: 20px;
+    position: relative;
     
 }
 .owl-dot{
@@ -586,6 +645,7 @@ section .title::after{
     border-radius: 50%;
     border: 2px solid rgb(133, 2, 9)!important;
     transition: all 0.3s ease;
+    position: relative;
 }
 .owl-dot.active{
     width: 35px;
@@ -601,6 +661,7 @@ section .title::after{
 .peli, .teams{
     color:#fff;
     background: #111;
+    
 }
 .peli .title::before,
 .teams .title::before{
@@ -621,6 +682,7 @@ section .title::after{
     width: 50px;
     margin: none;
     padding: 0%;
+    position: relative;
 }
 .contenedorBotones img:hover{
     color: rgb(168, 0, 0);
@@ -628,6 +690,7 @@ section .title::after{
 }
 .contenedorImagen img{
     width: 150px;
+    position: relative;
    
 
 }
@@ -638,6 +701,7 @@ section .title::after{
     margin: 0%;
     background-color: rgb(8, 24, 41);
     border-radius: 15px;
+    position: relative;
 }
 
 .tabla tr{
@@ -651,11 +715,13 @@ section .title::after{
 /* contact section styling */
 .contact .title::after{
     content: "Escribeme";
+  
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
 }
 .contact .contact-content .text{
+    position: relative;
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
@@ -665,21 +731,26 @@ section .title::after{
 }
 .contact .contact-content .left .icons{
     margin: 10px 0;
+    position: relative;
 }
 .contact .contact-content .row{
+    position: relative;
     display: flex;
     height: 65px;
     align-items: center;
 }
 .contact .contact-content .row .info{
     margin-left: 30px;
+    position: relative;
 }
 .contact .contact-content .row i{
     font-size: 25px;
     color: rgb(133, 2, 9);
+    position: relative;
 }
 .contact .contact-content .info .head{
     font-weight: 500;
+    position: relative;
 }
 .contact .contact-content .info .sub-title{
     color: #333;
@@ -696,9 +767,11 @@ section .title::after{
 .contact .right form .textarea{
     height: 80px;
     width: 100%;
+    position: relative;
 }
 .contact .right form .name{
     margin-right: 10px;
+    position: relative;
 }
 .contact .right form .field input,
 .contact .right form .textarea textarea{
@@ -711,6 +784,7 @@ section .title::after{
     font-size: 17px;
     font-family: 'Poppins', sans-serif;
     transition: all 0.3s ease;
+    position: relative;
 }
 .contact .right form .field input:focus,
 .contact .right form .textarea textarea:focus{
@@ -723,6 +797,7 @@ section .title::after{
 .contact .right form .button-area{
   display: flex;
   align-items: center;
+  position: relative;
 }
 .right form .button-area button{
   color: #fff;
@@ -738,6 +813,7 @@ section .title::after{
   background: rgb(133, 2, 9);
   border: 2px solid rgb(133, 2, 9);
   transition: all 0.3s ease;
+  position: relative;
 }
 .right form .button-area button:hover{
   color: rgb(133, 2, 9);
@@ -749,13 +825,18 @@ footer{
     padding: 15px 23px;
     color: #fff;
     text-align: center;
+    
+
+    
 }
 footer span a{
     color: rgb(221, 4, 15);
     text-decoration: none;
+    position: relative;
 }
 footer span a:hover{
     text-decoration: underline;
+
 }
 
 
